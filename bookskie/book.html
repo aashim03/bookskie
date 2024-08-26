@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>=Bookskie</title>
+    <link rel="stylesheet" href="book.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="navbar">
+    <h1>BOOKskie.....</h1>
+    </div>
+    
+    <div class="con">
+        <div class="book-con">
+            <h2>ATTITUDE IS EVERYTHING</h2>
+            <h5>Jeff Kellar</h5>
+            <p>“A happy person is not a person in a certain set of circumstances, but rather a person with a certain set of attitudes.</p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+
+    </div>
+    <div class="pop-over"></div>
+    <div class="pop-box">
+        <h2>Add Book</h2>
+        <form>
+            <input type="text" placeholder="book title" id="bok-ti-in">
+            <input type="text" placeholder="Author name" id="bok-aut-in">
+            <textarea placeholder="Short Note" id="bok-not-in"></textarea>
+            <button id="add-book">ADD</button>
+            <button id="cancel-pop">CANCEL</button>
+                </form>
+    </div>
+
+    <button class="add-butt" id="add-popup-butt">+</button>
+    <script src="book.js"></script>
+</body>
+</html>
